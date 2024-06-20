@@ -1,0 +1,164 @@
+.App {
+  text-align: center;
+}
+
+.happy {
+  background-image: url(./data/happy.jpg);
+}
+.angry {
+  background-image: url(./data/angry.jpg);
+}
+.anxious {
+  background-image: url(./data/anxious.jpg);
+}
+.freakedOut {
+  background-image: url(./data/freakedOut.jpg);
+}
+.surprised {
+  background-image: url(./data/surprised.jpg);
+}
+.radio{
+  direction: rtl;
+  font-size:30px;
+}
+.showStyle{
+  visibility: visible;
+}
+.hideStyle{
+  visibility: hidden;
+  width:0%;
+  height: 0%;
+}
+.qa{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between; 
+  font-family: 'Untitled Sans';
+ font-size: 19px;
+ font-weight: 400;
+ letter-spacing: -0.20px;
+}
+.allqa{
+  width: 400px;
+  border:1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  float: right;
+  margin-right: 29%;
+  margin-top: 5%;
+  padding: 0% 6% 6% 7%;
+  background-color: #D8DEE0;
+}
+h1{
+  font-size: 57px;
+  text-align: center;
+  font-weight: normal;
+  color: #222;
+}
+.h11{
+  font-size: 37px;
+  text-align: center;
+  font-weight: normal;
+  color: #222;
+}
+
+h5 {
+  font-size: 15px;
+  font-family: 'Untitled Sans';
+  font-weight: 400;
+}
+
+label{
+font-family: 'Untitled Sans';
+ font-size: 19px;
+ font-weight: 400;
+ letter-spacing: -0.20px;
+}
+.label1{
+  font-family: 'Untitled Sans';
+   font-size: 32px;
+   font-weight: 400;
+   letter-spacing: -0.20px;
+  }
+p {
+ font-family: 'Untitled Sans';
+ font-size: 19px;
+ font-weight: 400;
+ letter-spacing: -0.20px;
+}
+.continue_button{
+  background-color: #DB5646;
+    color: whitesmoke;
+    border-radius: 12px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border:none;
+}
+.continue_button1{
+  background-color: #DB5646;
+    color: whitesmoke;
+    border-radius: 12px;
+    padding: 15px 109px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border:none;
+}
+.pic{
+  float: left;
+  margin-left: 20%;
+  height: 387px;
+}
+.radioButton{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+  padding-top: 10px;
+}
+.makeFace{
+    font-size: 37px;
+    text-align: center;
+    font-weight: normal;
+    color: #222;
+}
+.video{
+    float: left;
+    margin-left: 24%;
+}
+.button3{
+  display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.showStyle1{
+  visibility: visible;
+  display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: -205px;
+
+}
+.picVideo{
+  margin-top: 50px;
+}
+.continue_button2{
+  background-color: #DB5646;
+    color: whitesmoke;
+    border-radius: 12px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border:none;
+    margin-top: 157px;
+    height: 55px;
+}
